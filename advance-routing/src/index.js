@@ -2,10 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from './view/Home/Home';
 import Posts from './view/Posts/Posts';
 import Readpost from './view/ReadPost/Readpost';
+
 
 
 const router = createBrowserRouter([
