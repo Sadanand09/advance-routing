@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 
 
-function Card({ img, name, info }) {
+function Card({id, img, name, info }) {
     return (
         <div className="container ">
             <div className='row'>
@@ -14,7 +14,7 @@ function Card({ img, name, info }) {
                         <p className="card-text lead">{info}</p>
                         <hr></hr>
                         <center>
-                            <Link to={`/post/:id`}>Read More</Link>
+                            <Link to={`/post/${id}`}>Read More</Link>
                         </center>
                     </div>
                 </div>

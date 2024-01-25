@@ -11,7 +11,7 @@ function Posts() {
           CardData.map((info, index) => {
             return(
               <div>
-                <Card key={index} img={info.img} name={info.name} info={info.info}/>
+                <Card key={index}  id={info.id} img={info.img} name={info.name} info={info.info}/>
               </div>
             )
           })
